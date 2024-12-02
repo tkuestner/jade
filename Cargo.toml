@@ -1,0 +1,25 @@
+[package]
+name = "jade"
+version = "0.1.0"
+authors = ["tkuestner <2498021-tkuestner@users.noreply.gitlab.com>"]
+edition = "2021"
+description = "A CHIP-8 emulator made with Rust and egui"
+license = "MIT"
+readme = "README.md"
+categories = ["emulators"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+clap = { version = "4.5", features = ["derive"] }
+eframe = "0.29"
+env_logger = "0.11"
+log = "0.4"
+rand = "0.8"
+rodio = "0.20"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "2"
+timer = "0.2"
+toml = "0.8"

@@ -1,0 +1,10 @@
+# Valid keymaps are "CommonQWERTY", "CommonQWERTZ" and "Literal".
+key_map = "CommonQWERTY"
+instructions_per_second = 700
+
+[instructions]
+use_vy_in_8xy6 = false
+use_vy_in_8xye = false
+use_bxnn_instead_bnnn = true
+set_vf_on_overflow_in_fx1e = false
+inc_i_in_fx55_and_fx65 = false
